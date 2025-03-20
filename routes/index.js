@@ -6,4 +6,4 @@ router.get('/', (req, res) => {
 res.render('index', { title: 'Online Book Store' });
 });
 
-module.exports = router;
+module.exports = router
