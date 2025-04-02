@@ -1,27 +1,30 @@
 {
   "name": "csp203",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node.js project for CSP203",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Deki08/CSP203.git"
+    "url": "https://github.com/Deki08/CSP203.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Deki08/CSP203/issues"
   },
   "homepage": "https://github.com/Deki08/CSP203#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "pg-promise": "^11.13.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
