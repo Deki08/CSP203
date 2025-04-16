@@ -12,6 +12,7 @@ const authRoutes = require('./routes/authRoutes');
 const homeRoutes = require('./routes/homeRoutes');
 const profileRoutes = require('./routes/profileRoutes');
 const bookRoutes = require("./routes/bookRoutes");
+const adminRoutes = require('./routes/adminRoutes'); 
 
 
 // Load environment variables
@@ -48,6 +49,7 @@ app.use('/auth', authRoutes);
 app.use('/home', homeRoutes);
 app.use('/profile', profileRoutes);
 app.use("/", bookRoutes);
+app.use('/', adminRoutes);
 
 // Database connection test route
 app.get('/db-test', async (req, res) => {
